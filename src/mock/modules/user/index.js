@@ -1,3 +1,10 @@
+/*
+ * @Description:
+ * @Author: dongshen
+ * @Date: 2019-06-01 12:06:29
+ * @LastEditors: dongshen
+ * @LastEditTime: 2019-08-10 22:30:36
+ */
 import users from '@/mock/data/user'
 import CommonResp from '@/mock/common-resp'
 
@@ -5,7 +12,6 @@ function getUserInfo (request) {
   // let requestData = JSON.parse(request.data)
   let res = users[0]
   let msg = res.msg
-
   if (res !== null) {
     let data = res.data
     return [200, new CommonResp(10000, msg, data).toString()]

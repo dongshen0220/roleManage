@@ -1,0 +1,12 @@
+stages:
+    - pages
+pages:
+  image: dockergroup.paas.x/gcollege/gitpage-docker
+  stage: pages
+  script:
+  - bundle exec jekyll build --destination public
+  - cd public
+  - ls
+  artifacts:
+    paths:
+    - public
