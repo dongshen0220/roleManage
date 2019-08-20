@@ -1,7 +1,9 @@
-/**
- * @namespace   网络请求
- * @author      肖君文
- * @date        2018/08/17
+/*
+ * @Description: 网络请求
+ * @Author: dongshen
+ * @Date: 2019-05-10 10:10:51
+ * @LastEditors: dongshen
+ * @LastEditTime: 2019-08-20 21:26:52
  */
 
 import axios from 'axios'
