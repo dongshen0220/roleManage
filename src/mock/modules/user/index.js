@@ -3,10 +3,10 @@
  * @Author: dongshen
  * @Date: 2019-06-01 12:06:29
  * @LastEditors: dongshen
- * @LastEditTime: 2019-08-15 12:03:03
+ * @LastEditTime: 2019-08-20 16:57:01
  */
-import users from '@/mock/data/user'
 import CommonResp from '@/mock/common-resp'
+import users from '@/mock/data/user'
 
 function getUserInfo (request) {
   // let requestData = JSON.parse(request.data)
